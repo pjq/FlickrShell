@@ -6,7 +6,7 @@
 #########################################################################
 #!/bin/bash
 
-alias wget=='wget -b'
+alias wget='wget -b'
 CONFIGFILE=flickr.conf
 
 echo "config file=${CONFIGFILE}"
