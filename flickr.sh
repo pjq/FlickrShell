@@ -99,7 +99,7 @@ postPhoto()
     read -p "Enter the password:" PASSWORD
     read -p "Enter the Title:" TITLE
     read -p "Enter the Description:" DESCRIPTION 
-    #PASSWORD="QCS%23271773661"
+    #PASSWORD=""
     echo PASSWORD=${PASSWORD}
 
     SIG=${API_SECRET}api_key${API_KEY}auth_token${TOKEN}blog_id${BLOG_ID}blog_password${PASSWORD}description${DESCRIPTION}method${METHORD}photo_id${PHOTO_ID}title${TITLE}
